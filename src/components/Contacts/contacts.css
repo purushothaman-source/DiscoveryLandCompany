@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    box-shadow: none;    
+}
+
+.img{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.appcont{
+    position: absolute;
+    top:20px;
+    z-index: 1;
+    width: 100%;
+}
+.appcont nav{
+    background: transparent;
+}
+.img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+}
+ .find{
+    position: absolute;
+    top:270px;
+    left:200px;
+    font-size: 2.9rem;
+    color:white;
+}
+
+.content{
+    position: absolute;
+    left: 18%;
+    top:110vh;
+    font-size: 2.0rem;
+    width: 65%;
+    text-align: center;
+}
+.community{
+    position: relative;
+}
+.dropbox{
+    position:absolute;
+    width:60%;
+    height: 50%;
+    top:20%;
+    left: 20%;
+    background-color: white;
+    font-size: 1.9rem;
+    text-align: center;
+    padding: 45px;
+}
+.option select{
+    width: 500px;
+    height: 40px;
+    font-family: monospace;   
+    box-sizing: border-box;
+    border-top:turquoise;
+    border-left:white;
+    border-right:white;
+}
+.result{
+    width: 500px;
+    height: 200px;
+    /* background-color: turquoise; */
+    margin-left: 15%;
+    padding: 15px;
+    font-size: 1.3rem;
+}
+@media only screen and (max-width: 600px) {
+.option select{
+    width: 100%;
+}
+}

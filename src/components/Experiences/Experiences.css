@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    
+}
+.main{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.app{
+    position: relative;
+    top:20px;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+.app nav{
+    background: transparent;
+}
+
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100vh;
+}
+.main{
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+.header{
+    position: absolute;
+    top:300px;
+    left:200px;
+    z-index: 0;
+    font-weight: normal;
+    font-size: 35px;
+    color:white;
+    font-family: gt-sectra;
+    height: auto;
+}
+.main > p{
+    position: absolute;
+    top:110vh;
+    text-align: center;
+    left: 0;
+    line-height: 60px;
+    font-weight: normal;
+    font-size: xx-large;
+}
+.exclusive{
+    position:absolute;
+    top:140vh;
+    width: 55vh;
+    left :100px;
+    font-size: 25px;
+    height: auto;
+}
+.swim{
+    position: absolute;
+    top:140vh;
+    left:85vh;
+    width: 600px;
+    height: 400px;
+}
+.swim img{
+    width: 100%;
+    height: 95%;
+    
+}
+.golf{
+position: absolute;
+top:210vh;
+width:100%;
+height: auto;}
+
+.golfbox{
+  position: absolute;
+  top:200px;
+  left:800px;
+  width: 400px;
+  height: 500px;
+  background: gainsboro;
+  padding: 100px 0px;
+}
+.font{
+    font-family: gt-sectra;
+    font-size: 25px;
+}
+.outdoor{
+    position: absolute;
+    top:130vh;
+    left: 50vh;
+    height: auto;
+}
+.outdoorbox{
+    position: absolute;
+    top:160vh;
+    left:20vh;
+    width: 400px;
+    height: 400px;
+    background: gainsboro;
+    text-align: center;
+}
+.outdoor img{
+    width: 1000px;
+}
+.wellness{
+    position: relative;
+    top:130vh;
+    left:10vh;
+  height: auto;
+}
+.wellness img{
+    width: 80%;
+    height: 80vh;
+}
+.wellbox{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 70vh;
+    left:100vh;
+    background: gainsboro;
+    
+}
+.p{
+    text-align: center;
+    font-family:gt-sectra ;
+    font-size: 35px;
+}
+.footer{
+    position: absolute;
+    top: 180vh;
+}
+@media only screen and (max-width: 600px) {
+/* .app{
+    width: 100%;
+}
+label.logo{
+    padding: 0 30px;
+}
+.app nav{
+
+} */
+.main{width: 100%;}
+.header{
+    left: 0;
+    text-align: center;
+    /* width: 53%; */
+}
+.img img{
+    width: 100%;
+}
+.main > p{
+    position: absolute;
+    top: 110vh;
+    font-size: 20px;
+    text-align: center;
+}
+.exclusive{
+    font-size: 20px;
+    top: 150vh;
+    left: 0;
+    text-align: center;
+    line-height: 30px;
+    padding: 5px;
+    
+}
+.swim{
+    position: absolute;
+    top: 210vh;
+    left: 0vh;
+    width: 100%;
+    height: 400px;
+}
+.golf{
+    position: absolute;
+    top: 270vh;
+    width: 100%;
+}
+.golf img{
+    width: 100%;
+}
+.golfbox{
+    position: absolute;
+    top: 263px;
+    left: 0px;
+    width: 359px;
+    height: 375px;
+    padding: 41px 0px;
+  }
+
+}
